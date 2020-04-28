@@ -1,9 +1,9 @@
 'use strict';
 
-let sliderDots = document.querySelectorAll('.slider-dots__item'),
-    sliderItems = document.querySelectorAll('.slider-item'),
-    sliderButtonNext = document.querySelector('.slider-btn--next'),
-    sliderButtonPrev = document.querySelector('.slider-btn--prev');
+let sliderDots = document.querySelectorAll('.slider-dots__item'), // dots
+    sliderItems = document.querySelectorAll('.slider-item'), // wrapper for image (item)
+    sliderButtonNext = document.querySelector('.slider-btn--next'), // button NEXT
+    sliderButtonPrev = document.querySelector('.slider-btn--prev'); // button Previous
 
 function _prepareSlideMove(indexMove, ...elements) {
     for(let elem of elements){
