@@ -6,3 +6,4 @@ just copy this source and customize for yourself some variables.
 
 ## Demo
 
+[link](https://percuciat.github.io/slider_ver_1/) - slider
